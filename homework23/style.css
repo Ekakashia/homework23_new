@@ -1,0 +1,616 @@
+*{ box-sizing: border-box;
+    
+}
+@font-face{
+    font-family: "aventa";
+    src: url(./FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+}
+body{
+    width: 100%;
+    height: vh;
+    background-color: #F5F5F5;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: vh;
+}
+.d1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.d11{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+.d12{
+    width: 794px;
+    height: 50px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.a2{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 27.15px;
+    line-height: 33.55px;
+    font-weight: 700;
+    font-family: "aventa";
+    text-decoration: none;
+}
+.a1{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 16px;
+    line-height: 19.78px;
+    font-weight: 400;
+    font-family: "aventa";
+    text-decoration: none;
+    padding-left: 72px;
+}
+.cards{
+    width: 100%;
+    height: 612px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card1{
+    width: 600px;
+    height: 612px;
+}
+.card2{
+    width: 754px;
+    height: 612px;
+    position: relative;
+    z-index: 2;
+}
+.c21{
+    width: 754px;
+    height: 612px;
+    position: absolute;
+    z-index: 1;
+    right: 60px;
+}
+.c22{
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    z-index: 1;
+    top: 500px;
+    left: 1050px;
+}
+.d2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.d21{
+    height: 200px;
+    width: 500px;
+}
+.d22{
+    height: 100px;
+    width: 800px;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.logox{
+    margin-top: 20px;
+}
+.h3{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 40px;
+    line-height: 49.44px;
+    font-weight: 400;
+    padding-left: 100px;
+    font-family: "aventa";
+}
+.p2{
+    color: hsla(0, 0%, 46%, 1);
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 400;
+    padding-left: 100px;
+    font-family: "aventa";
+}
+.cards2{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+.card3{
+    width: 200px;
+    height: 800px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.card30{
+    width: 600px;
+    height: 800px;
+    position: relative;
+    z-index: 2;
+}
+.card311{
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    z-index: 1;
+    top: 1180px;
+    left: 55px;
+}
+.card321{
+       width: 404px;
+       height: 154px;
+       position: absolute;
+       z-index: -1;
+       left: 100px;
+       top: 1500px;
+}
+.card4{
+    width: 1007px;
+    height: 700px;
+    background-image: url(Rectangle\ 24\ \(1\).png);
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    position: relative;
+    left: 30px;
+}
+.h4{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 40px;
+    line-height: 49.44px;
+    font-weight: 400;
+    padding-left: 80px;
+    font-family: "aventa";
+    padding-top: 300px;
+}
+.p4{
+    color: hsla(0, 0%, 34%, 1);
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-family: "aventa";
+}
+.card41{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    left: 200px;
+    position: relative;
+}
+.card42{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    left: 200px;
+    position: relative;
+    bottom: 100px;
+}
+.card411{
+    width: 308px;
+    height: 379px;
+    background-color: azure;
+    z-index: 2;
+    border-radius: 40px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border: 1px solid hsla(0, 0%, 95%, 1);
+    position: absolute;
+    bottom: 100px;
+}
+.box1{
+    width: 121px;
+    height: 121px;
+    background-color: hsla(215, 100%, 97%, 1);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    text-align: center;
+}
+.box{
+    padding-top: 20px;
+}
+.h5{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 24px;
+    line-height: 29.66px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "aventa";
+}
+.p5{
+    color: hsla(0, 0%, 46%, 1);
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "aventa";
+}
+.card412{
+    width: 308px;
+    height: 379px;
+    margin-top: 70px;
+    position: absolute;
+    left: 350px;
+    bottom: 150px;
+    border-radius: 40px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border: 1px solid hsla(0, 0%, 95%, 1);
+}
+.w1{
+    width: 121px;
+    height: 121px;
+    background-color: hsla(43, 100%, 95%, 1);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    text-align: center;
+}
+.w{
+    padding-top: 20px;
+}
+.card421{
+    width: 308px;
+    height: 379px;
+    position: absolute;
+    top: 20px;
+    border-radius: 40px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border: 1px solid hsla(0, 0%, 95%, 1);
+}
+.code1{
+    width: 121px;
+    height: 121px;
+    background-color: hsla(331, 100%, 98%, 1);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    text-align: center;
+}
+.card422{
+    width: 308px;
+    height: 379px;
+    position: absolute;
+    left: 350px;
+    border-radius: 40px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border: 1px solid hsla(0, 0%, 95%, 1);
+    bottom: 50px;
+}
+.chart{
+    width: 121px;
+    height: 121px;
+    background-color: hsla(149, 100%, 94%, 1);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    text-align: center;
+}
+.cards3{
+    width: 100%;
+    height: 372px;
+    display: flex;
+    justify-content: space-between;
+}
+.card31{
+    width: 650px;
+    height: 472px;
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
+.card34{
+    width: 129px;
+    height: 129px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    z-index: -1;
+}
+.play1{
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    bottom: 220px;
+    right: 300px;
+}
+.card32{
+    width: 550px;
+    height: 372px;
+    position: relative;
+}
+.h6{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 40px;
+    line-height: 49.44px;
+    font-weight: 400;
+    font-family: "aventa";
+}
+.p6{
+    color: hsla(0, 0%, 34%, 1);
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    font-family: "aventa";
+}
+.card33{
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    right: 415px;
+    z-index: -1;
+}
+.d3{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.h7{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 40px;
+    line-height: 49.44px;
+    font-weight: 400;
+    padding-top: 100px;
+    font-family: "aventa";
+}
+.p7{
+    color: hsla(0, 0%, 34%, 1);
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 400;
+    font-family: "aventa";
+}
+.cards5{
+    width: 100%;
+    height: 389px;
+    display: flex;
+    justify-content: space-between;
+}
+.card51{
+    width: 420px;
+    height: 389px;
+    position: relative;
+}
+.card52{
+    width: 420px;
+    height: 389px;
+}
+.card53{
+    width: 420px;
+    height: 389px;
+    position: relative;
+}
+.card531{
+    width: 184px;
+    height: 184px;
+    position: absolute;
+    bottom: 80px;
+    z-index: -1;
+    left: 50px;
+}
+.png1{ 
+    padding-left: 50px;
+}
+.g72{
+    padding-top: 110px;
+    padding-left: 70px;
+}
+.g71{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.card511{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: -1;
+    bottom: 1px;
+    left: 60px;
+}
+.card512{
+    width: 196px;
+    height: 154px;
+    position: absolute;
+    z-index: -1;
+    left: 310px;
+    top: 1px;
+}
+.d4{
+    width: 1197px;
+    height: 292px;
+    background-color: hsla(213, 100%, 98%, 1);
+    border-radius: 75px;
+    margin-left: 80px;
+    margin-top: 180px;
+    position: relative;
+}
+.d41{
+    width: 543px;
+    height: 292px;
+    position: absolute;
+    right: -45px;
+    bottom: 0;
+}
+.d42{
+    width: 473px;
+    height: 80px;
+    position: absolute;
+    top: 80px;
+    right: 150px;
+}
+.h8{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 40px;
+    line-height: 49.44px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: "aventa";
+}
+.p8{
+    color: hsla(0, 0%, 34%, 1);
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 400;
+    padding-left: 100px;
+    font-family: "aventa";
+}
+.d411{
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    z-index: -1;
+    left: -30px;
+    bottom: -30px;
+}
+.d412{
+    width: 196px;
+    height: 154px;
+    position: absolute;
+    z-index: -1;
+    color: hsla(213, 100%, 94%, 1);
+    right: -30px;
+    bottom: 170px;
+}
+.d5{
+    width: 1197px;
+    height: 350px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsla(0, 0%, 90%, 1);
+    border-top: 1px solid hsla(0, 0%, 90%, 1);
+    margin-left: 80px;
+}
+.f{
+    padding-top: 20px;
+}
+.d51{
+    width: 272px;
+    height: 300px;
+}
+.h9{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 24px;
+    line-height: 29.66px;
+    font-weight: 400;
+    font-family: "aventa";
+}
+.p9{
+    color: hsla(0, 0%, 34%, 1);
+    font-size: 14px;
+    line-height: 22.4px;
+    font-weight: 400;
+    font-family: "aventa";
+}
+.d52{
+    width: 150px;
+    height: 300px;
+}
+.h10{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 20px;
+    line-height: 24.72px;
+    font-weight: 400;
+    font-family: "aventa";
+}
+.p10{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "aventa";
+}
+.d53{
+    width: 107px;
+    height: 300px;
+}
+.d54{
+    width: 75px;
+    height: 300px;
+}
+.d55{
+    width: 75;
+    height: 300px;
+}
+.d6{
+    width: 100%;
+    height: 50px;
+}
+.p11{
+    color: hsla(0, 0%, 64%, 1);
+    font-size: 14px;
+    line-height: 22.4px;
+    font-weight: 400;
+    font-family: "aventa";
+    text-align: center;
+    padding-top: 10px;
+}
+.h2{
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 40px;
+    line-height: 49.44px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: "aventa";
+}
+.p1{
+    color: hsla(0, 0%, 34%, 1);
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-family: "aventa";
+}
+.b1{
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 20px;
+    line-height: 24.72px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: "aventa";
+    width: 215px;
+    height: 65px;
+    background-color: hsla(234, 85%, 54%, 1);
+    border-radius: 60px;
+    border: 0.5px solid hsla(234, 85%, 54%, 1);
+}
+.db{
+    width: 404px;
+    height: 154px;
+    position: absolute;
+    z-index: 2;
+}
+.db1{
+    width: 404px;
+    height: 154px;
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 55px;
+}
+.dot{
+    color: hsla(213, 77%, 95%, 1);
+}
+.elp1{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom: 15px;
+    right: 105px;
+    z-index: -1;
+}
